@@ -1,17 +1,103 @@
 @font-face {
     font-family: SF Pro;
-    src: url(./font/SFPRODISPLAYREGULAR.OTF);
+    src: url(.*/font*/SFPRODISPLAYREGULAR.OTF);
 }
 @font-face {
     font-family: SF Pro;
-    src: url(./font/SFPRODISPLAYBOLD.OTF);
+    src: url(.*/font*/SFPRODISPLAYBOLD.OTF);
     font-weight: bold;
 }
 @font-face {
     font-family: SF Pro;
-    src: url(./font/SFPRODISPLAYMEDIUM.OTF);
+    src: url(.*/font*/SFPRODISPLAYMEDIUM.OTF);
     font-weight: 600;
 }
 :root{
-    --diplay-one:
+
 }
+
+ /********desktop full page --About-style***********/
+
+/*//zeuhz--Hero/header*/
+
+/*/////////////*/
+
+
+
+
+ /*//zion--Who are we /*/
+
+ /*/////////////*/
+
+
+
+/*//zion&darlene--Works /*/
+
+/*/////////////*/
+ 
+
+
+/*//faruq--CTA /*/
+
+/*/////////////*/
+
+
+
+
+ /*//Joshua-Job /*/
+
+/*/////////////*/
+
+
+
+
+     /*//kene-Last CTA and footer /*/
+
+    /*/////////////*/
+
+
+
+/****************************************************************************/
+
+
+
+
+    /*******desktop Case-study --WORK--styles******/
+
+/*zeuhz&dearie--Hero/header*/
+
+   /**/
+
+
+ /*/darlene-overview / */
+    
+   /**/
+
+
+/*/adetoye--by the numbers / */
+
+   /**/    
+
+
+
+
+/*/ghaffar--look and feel / */
+
+   /**/
+
+
+ /*/faruq&zeuhz--CTA / */
+
+   /**/
+
+
+  /*/adetoye&joshua-- recent work / */
+
+/**/
+
+
+
+   /*/Lkene&ghaffar--CTA and footer / */
+
+    
+   /**/
