@@ -4,6 +4,8 @@ Guidlines while working on the project
 
 --write your code within the commented sections that has your name/names.
 
+--you can commit your code to the main branch,there is no need to make your own branch
+
 --if you are paired with someone on any part off the project,try to a way to work that is comfortable for both of you.
 
 --if you have any problem while working on the code you can send me or any other person on the group a DM.
