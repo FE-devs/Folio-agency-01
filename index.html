@@ -23,7 +23,7 @@
       <!-- DESKTOP FULL PAGE OR ABOUT PAGE -->
 
       <!-- HERO SECTION = ZEUHZ -->
-      <header id="hero--header">
+      <header id="hero-header">
         <!-- SCROLL PAGE ELEMENT -->
         <div class="scroll">
           <button class="btn btn--scroll">
@@ -44,11 +44,11 @@
               alt="folio logo"
               class="navigation__logo--icon"
             />
-            <div class="navigation__logo--text">folio<span>.</span></div>
+            <div class="navigation__logo--text">folio<span></span></div>
           </div>
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a href="#" class="navigation__link">About</a>
+              <a href="#" class="navigation__link" id="current">About</a>
             </li>
             <li class="navigation__item">
               <a href="#" class="navigation__link">Work</a>
@@ -60,7 +60,7 @@
               <a href="#" class="navigation__link">
                 <span>Jobs</span>
               </a>
-              <span class="navigation__link--notification">2</span>
+              <span class="navigation--notification">2</span>
             </li>
           </ul>
           <div class="navigation__contact">
@@ -71,11 +71,9 @@
         <!-- HEADER HERO CONTENT -->
         <div class="header__hero">
           <div class="header__content">
-            <h1 class="header__content--heading heading--1">
-              Stand out from the crowd.
-            </h1>
+            <h1 class="heading--1">Stand out from the crowd.</h1>
             <p class="header__content--text">
-              folio is a full service agency busy with designing and building
+              folio is a full service agency busy designing and building
               beautiful digital products, brands and experiences.
             </p>
             <button class="btn btn--colored">Recent Work</button>
@@ -92,12 +90,14 @@
               alt="hero image"
               class="header__image--hero"
             />
-            <img
-              src="img/hero-path.svg"
-              alt="hero curly line path"
-              class="header__image--path"
-            />
           </div>
+        </div>
+        <div class="header__path">
+          <img
+            src="img/hero-path.svg"
+            alt="hero curly line path"
+            class="header__path--line"
+          />
         </div>
       </header>
       <!-- END -->
