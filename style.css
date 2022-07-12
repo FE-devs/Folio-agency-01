@@ -52,7 +52,7 @@ body {
 
 .scroll {
   position: absolute;
-  bottom: -9%;
+  bottom: 0;
   left: 10%;
   display: flex;
   align-items: center;
