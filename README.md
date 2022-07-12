@@ -23,18 +23,12 @@ ontend Mentor - Intro section with dropdown navigation solution
 
 ## Table of contents
 
-- [Table of contents](#table-of-contents)
-- [Overview](#overview)
-  - [Introduction](#introduction)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Folio-agency-01](#folio-agency-01)
+  - [Project Guidelines](#project-guidelines)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Introduction](#introduction)
+    - [Links](#links)
 
 ## Overview
 
@@ -43,3 +37,7 @@ ontend Mentor - Intro section with dropdown navigation solution
 The folio projects is a Dev-group project, an organisation of entry-level developers looking to further there team experience, hence this project was contributed to by a number of Developers.
 
 This is a demo site built for digital product design and creation brands and experiences.
+
+### Links
+
+- Live Site URL: [Hosted GitHub site](https://fe-devs.github.io/Folio-agency-01/)

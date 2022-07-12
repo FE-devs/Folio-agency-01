@@ -52,7 +52,7 @@ body {
 
 .scroll {
   position: absolute;
-  bottom: -10%;
+  bottom: -9%;
   left: 10%;
   display: flex;
   align-items: center;
@@ -168,8 +168,13 @@ body {
 }
 
 .btn--contact:hover {
-  transform: translateY(-0.1rem);
+  transform: translateY(-0.2rem);
   box-shadow: 0 2rem 1rem -2rem #8b8b8b;
+}
+
+.btn--contact:active {
+  transform: translateY(-0.1rem);
+  box-shadow: 0 2rem 1rem -3rem #8b8b8b;
 }
 
 .btn--colored {
