@@ -1,103 +1,81 @@
 @font-face {
-    font-family: SF Pro;
-    src: url(.*/font*/SFPRODISPLAYREGULAR.OTF);
+  font-family: SF Pro;
+  src: url(.*/font*/SFPRODISPLAYREGULAR.OTF);
 }
 @font-face {
-    font-family: SF Pro;
-    src: url(.*/font*/SFPRODISPLAYBOLD.OTF);
-    font-weight: bold;
+  font-family: SF Pro;
+  src: url(.*/font*/SFPRODISPLAYBOLD.OTF);
+  font-weight: bold;
 }
 @font-face {
-    font-family: SF Pro;
-    src: url(.*/font*/SFPRODISPLAYMEDIUM.OTF);
-    font-weight: 600;
+  font-family: SF Pro;
+  src: url(.*/font*/SFPRODISPLAYMEDIUM.OTF);
+  font-weight: 600;
 }
-:root{
-
+:root {
 }
 
- /********desktop full page --About-style***********/
+/* <!-- DESKTOP FULL PAGE OR ABOUT PAGE --> */
 
-/*//zeuhz--Hero/header*/
+/* <!-- HERO SECTION = ZEUHZ --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
-/*/////////////*/
+/* <!-- WHO ARE WE = ZION --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
+/* <!-- SERVICES = DEARIE --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
+/* <!-- WORKS = JOHN --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
+/* <!-- CTA = FARUQ --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
- /*//zion--Who are we /*/
+/* <!-- JOB = JOSHUA --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
- /*/////////////*/
+/* <!-- CTA & FOOTER = KENE --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END -->  */
 
-
-
-/*//zion&darlene--Works /*/
-
-/*/////////////*/
- 
-
-
-/*//faruq--CTA /*/
-
-/*/////////////*/
-
-
-
-
- /*//Joshua-Job /*/
-
-/*/////////////*/
-
-
-
-
-     /*//kene-Last CTA and footer /*/
-
-    /*/////////////*/
+/*///////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////// */
 
 
+ /* <!-- DESKTOP CASE STUDY OR ABOUT PAGE --> */
 
-/****************************************************************************/
+/* <!-- HERO SECTION = ZEUHZ, DEARIE & GHAFFAR --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
+/* <!-- OVERVIEW = DARLENE --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
+/* <!-- BY THE NUMBERS = ADETOYE --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
+/* <!-- LOOK AND FEEL = GHAFFAR --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
-    /*******desktop Case-study --WORK--styles******/
+/* <!-- CTA = FARUQ && JOHN --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
-/*zeuhz&dearie--Hero/header*/
+/* <!-- RECENT WORKS = ZION, JOSHUA & DARLENE --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END --> */
 
-   /**/
-
-
- /*/darlene-overview / */
-    
-   /**/
-
-
-/*/adetoye--by the numbers / */
-
-   /**/    
-
-
-
-
-/*/ghaffar--look and feel / */
-
-   /**/
-
-
- /*/faruq&zeuhz--CTA / */
-
-   /**/
-
-
-  /*/adetoye&joshua-- recent work / */
-
-/**/
-
-
-
-   /*/Lkene&ghaffar--CTA and footer / */
-
-    
-   /**/
+/* <!-- CTA & FOOTER = KENE & ADETOYE --> */
+/* <!-- WRITE CODE HERE --> */
+/* <!-- END -->  */
