@@ -13,12 +13,38 @@
   font-weight: 600;
 }
 :root {
+  /* APPEND ANY VARIABLES YOU THINK CAN GENERAL HERE */
 }
 
 /* <!-- DESKTOP FULL PAGE OR ABOUT PAGE --> */
 
+/* GENERAL STYLE FOR PAGE LAYOUT AND RESPONSIVENESS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 10px =1rem */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "SF Pro Display", sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 100vw;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
 /* <!-- HERO SECTION = ZEUHZ --> */
-/* <!-- WRITE CODE HERE --> */
+
 /* <!-- END --> */
 
 /* <!-- WHO ARE WE = ZION --> */
