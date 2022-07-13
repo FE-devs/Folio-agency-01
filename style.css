@@ -285,7 +285,7 @@ body {
 .header__image--hero {
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
 }
 
@@ -390,7 +390,6 @@ body {
     top: -10%;
     width: 100%;
     height: auto;
-    transform: translateX(35%);
     z-index: -1;
 
     display: flex;
@@ -400,12 +399,12 @@ body {
   .header__figure-bg {
     width: 28.7rem;
     height: 36.4rem;
-    transform: translateX(10%);
+    transform: translateX(50%);
   }
 
   .header__figure-hero {
     top: 10%;
-    right: 0%;
+    right: -35%;
     width: 45rem;
     height: 30rem;
   }
