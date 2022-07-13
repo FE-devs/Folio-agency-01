@@ -33,7 +33,11 @@
               class="scroll--btn"
             />
           </button>
-          <span class="scroll--text">Scroll down</span>
+          <span class="scroll--text desktop">Scroll down</span>
+          <span class="scroll--text tab"
+            >Swipe down <br />
+            to explore</span
+          >
         </div>
 
         <!-- NAVIGATION SECTION -->
@@ -44,7 +48,10 @@
               alt="folio logo"
               class="navigation__logo--icon"
             />
-            <div class="navigation__logo--text">folio<span></span></div>
+            <div class="navigation__logo--text">
+              <span>folio</span>
+              <span class="dot"></span>
+            </div>
           </div>
           <ul class="navigation__list">
             <li class="navigation__item">
@@ -66,12 +73,65 @@
           <div class="navigation__contact">
             <button class="btn btn--contact">contact us</button>
           </div>
+
+          <!-- NAVIGATION FOR SMALLER SCREEN SIZES -->
+          <div class="navig">
+            <input type="checkbox" id="navi-toggle" class="navig__checkbox" />
+
+            <label for="navi-toggle" class="navig__button">
+              <span class="navig__icon">&nbsp;</span>
+            </label>
+
+            <div class="navig__background">&nbsp;</div>
+
+            <nav class="navig__nav">
+              <ul class="navig__list">
+                <li class="navig__item">
+                  <a href="#" class="navig__link">Work</a>
+                </li>
+                <li class="navig__item">
+                  <a href="#" class="navig__link">About</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#" class="navig__link">Services</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#" class="navig__link">Jobs</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="#" class="navig"></a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="navig__social">
+              <img
+                src="img/facebook.svg"
+                alt="facebook"
+                class="navig__social--icon"
+              />
+              <img
+                src="img/youtube.svg"
+                alt="youtube"
+                class="navig__social--icon"
+              />
+              <img
+                src="img/instagram.svg"
+                alt="instagram"
+                class="navig__social--icon"
+              />
+            </div>
+          </div>
         </nav>
 
         <!-- HEADER HERO CONTENT -->
         <div class="header__hero">
           <div class="header__content">
-            <h1 class="heading--1">Stand out from the crowd.</h1>
+            <h1 class="heading--1">
+              Stand Out <br />
+              from The <br />
+              Crowd.
+            </h1>
             <p class="header__content--text">
               folio is a full service agency busy designing and building
               beautiful digital products, brands and experiences.
@@ -85,11 +145,11 @@
               alt="hero image background"
               class="header__image--bg"
             />
-            <img
+            <!-- <img
               src="img/hero-desktop-img.svg"
               alt="hero image"
               class="header__image--hero"
-            />
+            /> -->
           </div>
         </div>
         <div class="header__path">
