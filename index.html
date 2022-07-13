@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Folio-agency-01</title>
+    <title>folio &ndash; The digital brand creator</title>
 
     <!--  -->
     <!-- PATH LINK FOR FONT STYLES -->
@@ -42,6 +42,14 @@
 
         <!-- NAVIGATION SECTION -->
         <nav class="navigation">
+          <input
+            type="checkbox"
+            id="navi-toggle"
+            class="navigation__checkbox"
+          />
+          <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+          </label>
           <div class="navigation__logo">
             <img
               src="img/folio-logo.svg"
@@ -49,79 +57,84 @@
               class="navigation__logo--icon"
             />
             <div class="navigation__logo--text">
-              <span>folio</span>
-              <span class="dot"></span>
+              <img
+                src="img/folio-logo-text.svg"
+                alt="folio text"
+                class="navigation__logo--content"
+              />
+              <img
+                src="img/folio-text-white.svg"
+                alt="folio text mobile"
+                class="navigation__logo--mobile"
+              />
+              <img
+                src="img/folio-dot.svg"
+                alt="folio dot"
+                class="navigation__logo--dot"
+              />
             </div>
           </div>
-          <ul class="navigation__list">
-            <li class="navigation__item">
-              <a href="#" class="navigation__link" id="current">About</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">Work</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">Services</a>
-            </li>
-            <li class="navigation__item">
-              <a href="#" class="navigation__link">
-                <span>Jobs</span>
+
+          <div class="navigation__background">&nbsp;</div>
+
+          <div class="navigation__content">
+            <ul class="navigation__list">
+              <li class="navigation__item">
+                <a href="#" class="navigation__link" id="current">About</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Work</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">Services</a>
+              </li>
+              <li class="navigation__item">
+                <a href="#" class="navigation__link">
+                  <span>Jobs</span>
+                </a>
+                <span class="navigation--notification">2</span>
+              </li>
+            </ul>
+            <!-- NAVIGATION SOCIALS -->
+            <div class="navigation__social">
+              <a href="#">
+                <img
+                  src="img/facebook.svg"
+                  alt="facebook"
+                  class="navigation__social--icon"
+                />
               </a>
-              <span class="navigation--notification">2</span>
-            </li>
-          </ul>
+              <a href="#">
+                <img
+                  src="img/youtube.svg"
+                  alt="youtube"
+                  class="navigation__social--icon"
+                />
+              </a>
+              <a href="#">
+                <img
+                  src="img/instagram.svg"
+                  alt="instagram"
+                  class="navigation__social--icon"
+                />
+              </a>
+            </div>
+          </div>
+
           <div class="navigation__contact">
             <button class="btn btn--contact">contact us</button>
           </div>
 
-          <!-- NAVIGATION FOR SMALLER SCREEN SIZES -->
-          <div class="navig">
-            <input type="checkbox" id="navi-toggle" class="navig__checkbox" />
-
-            <label for="navi-toggle" class="navig__button">
-              <span class="navig__icon">&nbsp;</span>
-            </label>
-
-            <div class="navig__background">&nbsp;</div>
-
-            <nav class="navig__nav">
-              <ul class="navig__list">
-                <li class="navig__item">
-                  <a href="#" class="navig__link">Work</a>
-                </li>
-                <li class="navig__item">
-                  <a href="#" class="navig__link">About</a>
-                </li>
-                <li class="navigation__item">
-                  <a href="#" class="navig__link">Services</a>
-                </li>
-                <li class="navigation__item">
-                  <a href="#" class="navig__link">Jobs</a>
-                </li>
-                <li class="navigation__item">
-                  <a href="#" class="navig"></a>
-                </li>
-              </ul>
-            </nav>
-
-            <div class="navig__social">
-              <img
-                src="img/facebook.svg"
-                alt="facebook"
-                class="navig__social--icon"
+          <figure class="header__path">
+            <picture>
+              <source
+                media="(max-width: 37.5rem)"
+                srcset="img/hero-path-mobile.svg"
               />
-              <img
-                src="img/youtube.svg"
-                alt="youtube"
-                class="navig__social--icon"
-              />
-              <img
-                src="img/instagram.svg"
-                alt="instagram"
-                class="navig__social--icon"
-              />
-            </div>
-          </div>
+
+              <img src="img/hero-path.svg" alt="hero curly line path" />
+            </picture>
+          </figure>
         </nav>
 
         <!-- HEADER HERO CONTENT -->
@@ -140,24 +153,21 @@
           </div>
 
           <div class="header__image">
-            <img
-              src="img/hero-desktop-bg.svg"
-              alt="hero image background"
-              class="header__image--bg"
-            />
-            <!-- <img
-              src="img/hero-desktop-img.svg"
-              alt="hero image"
-              class="header__image--hero"
-            /> -->
+            <figure class="header__figure-bg">
+              <img
+                src="img/hero-desktop-bg.svg"
+                alt="hero image background"
+                class="header__image--bg"
+              />
+            </figure>
+            <figure class="header__figure-hero">
+              <img
+                src="img/hero-desktop-img.svg"
+                alt="hero image"
+                class="header__image--hero"
+              />
+            </figure>
           </div>
-        </div>
-        <div class="header__path">
-          <img
-            src="img/hero-path.svg"
-            alt="hero curly line path"
-            class="header__path--line"
-          />
         </div>
       </header>
       <!-- END -->
