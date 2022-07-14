@@ -404,9 +404,9 @@ body {
 
   .header__figure-hero {
     top: 10%;
-    right: -35%;
-    width: 45rem;
-    height: 30rem;
+    right: -32%;
+    width: 125vw;
+    height: auto;
   }
 
   .header__path {
@@ -464,7 +464,7 @@ body {
   .navigation__icon {
     position: absolute;
     top: 6.2rem;
-    left: 31.1rem;
+    right: 6.2rem;
   }
 
   .navigation__icon::before,
@@ -546,7 +546,7 @@ body {
   }
 
   .navigation__social--icon {
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 50%;
     border: 0.1rem solid var(--text-body-dark-mode);
   }
