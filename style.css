@@ -671,7 +671,76 @@ body {
 /* <!-- END --> */
 
 /* <!-- JOB = JOSHUA --> */
-/* <!-- WRITE CODE HERE --> */
+.section__jobs {
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.0001) 0%,
+    rgba(237, 229, 240, 0.504289) 100%
+  );
+  margin: 3rem auto;
+  width: 100vw;
+  max-width: 100%;
+  width: 100%;
+  padding: 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.section__jobs--col1 {
+  display: flex;
+  justify-content: flex-start;
+  width: 35%;
+}
+
+.section__jobs--logo {
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--color-primary);
+  padding: 3px;
+  margin-right: 6rem;
+}
+
+.job-title {
+  font-size: 1.6rem;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.job-title span {
+  margin-right: 1rem;
+}
+
+.section__jobs--text {
+  font-size: 1.6rem;
+  color: var(--text-body-dark-mode);
+  text-align: start;
+  margin: 3rem 0;
+}
+
+.section__jobs-col2 {
+  width: 37%;
+}
+
+.figure-box {
+  background-color: #fff;
+  padding: 4rem;
+  margin-bottom: 3rem;
+  border-radius: 2rem;
+  box-shadow: 0 2rem 5rem rgba(#000, 0.3);
+}
+
+.figure-box p,
+span {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: var(--text-body-dark-mode);
+}
+
+.heading--4 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+  color: var(--color-dark);
+}
 /* <!-- END --> */
 
 /* <!-- CTA & FOOTER = KENE --> */
