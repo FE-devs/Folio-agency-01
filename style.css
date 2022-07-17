@@ -1156,7 +1156,7 @@ body {
 .content-container {
   position: relative;
   width: 85%;
-  max-width: 1170px;
+  max-width: 117rem;
   margin: 0 auto;
 }
 
@@ -1328,22 +1328,26 @@ body {
 }
 
 .slider-container {
+  width: 100%;
+  max-width: 117rem;
+  margin: 0 auto;
   position: relative;
   bottom: -7.6rem;
 }
 
 .slider {
-  justify-content: space-between;
+  position: relative;
+  justify-content: flex-end;
+  gap: 0;
 }
 
 .slide-img {
-  display: flex;
   position: relative;
-  right: -3rem;
+  display: flex;
 }
 
 .slide-img img {
-  position: relative;
+  max-width: 100%;
 }
 
 .hide-on-mobile {
@@ -1416,9 +1420,10 @@ body {
   }
   .slider-container {
     bottom: -12.8rem;
+    width: 85%;
   }
-  .slide-img {
-    right: auto;
+  .slider {
+    justify-content: space-between;
   }
 
   .hide-on-mobile {
