@@ -39,7 +39,6 @@ body {
   font-family: "SF Pro Display", sans-serif;
   font-size: 1.6rem;
   color: var(--color-white);
-  overflow-x: hidden;
 }
 
 .container {
@@ -213,7 +212,8 @@ body {
   transition: all 0.2s;
 }
 
-.btn--colored:hover {
+.btn--colored:hover,
+.btn--colored:active {
   color: var(--color-primary);
   border: 2px solid var(--color-primary);
   background-color: var(--color-white);
@@ -403,7 +403,7 @@ body {
   }
 
   .header__content {
-    padding-top: 2rem;
+    padding-top: 7rem;
     gap: 2rem;
   }
 
@@ -416,7 +416,7 @@ body {
   .header__image {
     position: relative;
     top: -10%;
-    z-index: 3500;
+    z-index: -50;
   }
 
   .header__figure-bg {
@@ -432,29 +432,18 @@ body {
     top: -10%;
     left: 50%;
     opacity: 0.2;
-    z-index: 3000;
+    z-index: -70;
     width: 70%;
 
     transition: all 0.3s;
   }
 
-  .header__path img {
-    width: 100%;
-    position: absolute;
-    z-index: -10;
-  }
-
   /* STYLES FOR THE MOBILE MENU-TOGGLE BUTTTON */
-  .navigation {
-    display: none;
-  }
 
   .navigation {
     width: 100vw;
-    height: 10rem;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-white);
     padding: 5rem 3rem 1rem;
     position: relative;
   }
@@ -1195,6 +1184,10 @@ body {
   width: 100%;
 }
 
+.bg-path {
+  overflow: hidden;
+}
+
 .bg-shape {
   position: absolute;
   right: 0;
@@ -1494,8 +1487,9 @@ body {
 
 @media (min-width: 600px) and (max-width: 1204px) {
   .headline-tag-container {
-    gap: 13.96rem;
+    gap: 7.96rem;
   }
+
   .numbers-card-container {
     width: 80%;
   }
