@@ -39,7 +39,6 @@ body {
   font-family: "SF Pro Display", sans-serif;
   font-size: 1.6rem;
   color: var(--color-white);
-  overflow-x: hidden;
 }
 
 .container {
@@ -404,7 +403,7 @@ body {
   }
 
   .header__content {
-    padding-top: 2rem;
+    padding-top: 5rem;
     gap: 2rem;
   }
 
@@ -417,7 +416,7 @@ body {
   .header__image {
     position: relative;
     top: -10%;
-    z-index: 3500;
+    z-index: -50;
   }
 
   .header__figure-bg {
@@ -433,7 +432,7 @@ body {
     top: -10%;
     left: 50%;
     opacity: 0.2;
-    z-index: 3000;
+    z-index: -70;
     width: 70%;
 
     transition: all 0.3s;
@@ -442,7 +441,6 @@ body {
   .header__path img {
     width: 100%;
     position: absolute;
-    z-index: -10;
   }
 
   /* STYLES FOR THE MOBILE MENU-TOGGLE BUTTTON */
@@ -452,10 +450,8 @@ body {
 
   .navigation {
     width: 100vw;
-    height: 10rem;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-white);
     padding: 5rem 3rem 1rem;
     position: relative;
   }
