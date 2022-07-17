@@ -1140,13 +1140,16 @@ body {
 .bg-shape {
   position: absolute;
   right: 0;
-  max-width: 80%;
+  max-width: 75%;
   top: -3.966rem;
+  overflow: hidden;
 }
+
 .flex {
   display: flex;
   gap: 1rem;
 }
+
 .header-tag-container {
   position: absolute;
   top: 12.834rem;
