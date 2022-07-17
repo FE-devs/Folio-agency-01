@@ -298,22 +298,11 @@ body {
   display: block;
 }
 
-.header__image--hero {
-  top: -22%;
-  right: 33%;
-}
-
 .header__path {
   position: absolute;
   top: 0;
   right: 35%;
-  z-index: -1;
-}
-
-.header__path {
-  position: absolute;
-  top: 0;
-  right: 34%;
+  z-index: -100;
 }
 
 /* MEDIA QUERIES */
@@ -439,13 +428,18 @@ body {
   }
 
   .header__path {
-    left: 25%;
-    z-index: 4000;
-    width: 0;
-    opacity: 0;
-    visibility: hidden;
+    top: -35%;
+    left: 40%;
+    opacity: 0.05;
+    z-index: -5000;
 
     transition: all 0.3s;
+  }
+
+  .header__path img {
+    position: absolute;
+    /* opacity: 0; */
+    z-index: -10;
   }
 
   /* STYLES FOR THE MOBILE MENU-TOGGLE BUTTTON */
@@ -580,15 +574,15 @@ body {
     border: 0.1rem solid var(--text-body-dark-mode);
   }
 
-  .navigation__path {
+  /* .navigation__path {
     opacity: 0;
     visibility: hidden;
     position: absolute;
     top: 0;
     left: 25%;
-    z-index: 2000;
+    z-index: -100;
     transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-  }
+  } */
 
   #current {
     color: var(--color-white);
@@ -615,10 +609,10 @@ body {
     width: 100vw;
   }
 
-  .navigation__checkbox:checked ~ .navigation__path {
+  /* .navigation__checkbox:checked ~ .navigation__path {
     opacity: 1;
     visibility: visible;
-  }
+  } */
 
   .navigation__checkbox:checked
     ~ .navigation__logo
@@ -641,9 +635,10 @@ body {
   }
 
   .navigation__checkbox:checked ~ .header__path {
-    width: 100%;
+    top: 0;
+    left: 30%;
     opacity: 1;
-    visibility: visible;
+    z-index: 4000;
   }
 }
 
