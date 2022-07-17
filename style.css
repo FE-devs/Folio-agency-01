@@ -398,7 +398,7 @@ body {
 
   .header__hero {
     padding: 3rem;
-    padding-top: 12rem;
+    padding-top: 0rem;
   }
 
   .header__content {
@@ -415,7 +415,7 @@ body {
   .header__image {
     position: relative;
     top: -10%;
-    z-index: -1;
+    z-index: 3500;
   }
 
   .header__figure-bg {
@@ -430,8 +430,8 @@ body {
   .header__path {
     top: -35%;
     left: 40%;
-    opacity: 0.05;
-    z-index: -5000;
+    opacity: 0.2;
+    z-index: 3000;
 
     transition: all 0.3s;
   }
@@ -454,7 +454,7 @@ body {
     justify-content: space-between;
     background-color: var(--color-white);
     padding: 5rem 3rem 1rem;
-    position: fixed;
+    position: relative;
   }
 
   .navigation__logo {
@@ -517,7 +517,7 @@ body {
     top: 0;
     right: 0;
     transition: all 0.2s cubic-bezier(0.86, 0, 0.07, 1);
-    z-index: 100;
+    z-index: 3700;
   }
 
   .navigation__content {
