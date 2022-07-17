@@ -1137,6 +1137,10 @@ body {
   width: 100%;
 }
 
+.bg-path {
+  overflow: hidden;
+}
+
 .bg-shape {
   position: absolute;
   right: 0;
@@ -1436,7 +1440,7 @@ body {
 
 @media (min-width: 600px) and (max-width: 1204px) {
   .headline-tag-container {
-    gap: 13.96rem;
+    gap: 7.96rem;
   }
   .numbers-card-container {
     width: 80%;
