@@ -213,7 +213,8 @@ body {
   transition: all 0.2s;
 }
 
-.btn--colored:hover {
+.btn--colored:hover,
+.btn--colored:active {
   color: var(--color-primary);
   border: 2px solid var(--color-primary);
   background-color: var(--color-white);
