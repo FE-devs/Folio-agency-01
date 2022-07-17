@@ -432,13 +432,14 @@ body {
     left: 40%;
     opacity: 0.2;
     z-index: 3000;
+    width: 60%;
 
     transition: all 0.3s;
   }
 
   .header__path img {
+    width: 100%;
     position: absolute;
-    /* opacity: 0; */
     z-index: -10;
   }
 
