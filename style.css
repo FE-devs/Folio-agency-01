@@ -1203,11 +1203,11 @@ body {
 .numbers-card-container {
   flex-direction: column-reverse;
   gap: 4rem;
-  width: 80%;
+  width: 100%;
 }
 
 .numbers-card {
-  width: 26.7rem;
+  width: 100%;
 }
 
 .numbers-card-head {
@@ -1367,6 +1367,9 @@ body {
   .headline {
     font-size: 6.4rem;
   }
+  .numbers-card {
+    width: 26.7rem;
+  }
   .numbers-card-container {
     width: 65%;
     margin: 0 auto;
@@ -1426,6 +1429,9 @@ body {
 @media (min-width: 600px) and (max-width: 1204px) {
   .headline-tag-container {
     gap: 13.96rem;
+  }
+  .numbers-card-container {
+    width: 80%;
   }
   .slide-img img {
     width: 95%;
