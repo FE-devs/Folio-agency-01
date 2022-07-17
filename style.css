@@ -1135,13 +1135,16 @@ body {
 .bg-shape {
   position: absolute;
   right: 0;
-  max-width: 80%;
+  max-width: 75%;
   top: -3.966rem;
+  overflow: hidden;
 }
+
 .flex {
   display: flex;
   gap: 1rem;
 }
+
 .header-tag-container {
   position: absolute;
   top: 12.834rem;
@@ -1150,8 +1153,8 @@ body {
 
 .content-container {
   position: relative;
-  width: 90%;
-  max-width: 1170px;
+  width: 85%;
+  max-width: 117rem;
   margin: 0 auto;
 }
 
@@ -1198,11 +1201,11 @@ body {
 .numbers-card-container {
   flex-direction: column-reverse;
   gap: 4rem;
-  width: 80%;
+  width: 100%;
 }
 
 .numbers-card {
-  width: 26.7rem;
+  width: 100%;
 }
 
 .numbers-card-head {
@@ -1323,22 +1326,26 @@ body {
 }
 
 .slider-container {
+  width: 100%;
+  max-width: 117rem;
+  margin: 0 auto;
   position: relative;
   bottom: -7.6rem;
 }
 
 .slider {
-  justify-content: space-between;
+  position: relative;
+  justify-content: flex-end;
+  gap: 0;
 }
 
 .slide-img {
-  display: flex;
   position: relative;
-  right: -3rem;
+  display: flex;
 }
 
 .slide-img img {
-  position: relative;
+  max-width: 100%;
 }
 
 .hide-on-mobile {
@@ -1361,6 +1368,9 @@ body {
   }
   .headline {
     font-size: 6.4rem;
+  }
+  .numbers-card {
+    width: 26.7rem;
   }
   .numbers-card-container {
     width: 65%;
@@ -1408,9 +1418,10 @@ body {
   }
   .slider-container {
     bottom: -12.8rem;
+    width: 85%;
   }
-  .slide-img {
-    right: auto;
+  .slider {
+    justify-content: space-between;
   }
 
   .hide-on-mobile {
@@ -1421,6 +1432,9 @@ body {
 @media (min-width: 600px) and (max-width: 1204px) {
   .headline-tag-container {
     gap: 13.96rem;
+  }
+  .numbers-card-container {
+    width: 80%;
   }
   .slide-img img {
     width: 95%;
