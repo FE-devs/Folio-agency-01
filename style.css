@@ -403,7 +403,7 @@ body {
   }
 
   .header__content {
-    padding-top: 5rem;
+    padding-top: 7rem;
     gap: 2rem;
   }
 
@@ -438,15 +438,7 @@ body {
     transition: all 0.3s;
   }
 
-  .header__path img {
-    width: 100%;
-    position: absolute;
-  }
-
   /* STYLES FOR THE MOBILE MENU-TOGGLE BUTTTON */
-  .navigation {
-    display: none;
-  }
 
   .navigation {
     width: 100vw;
@@ -1436,7 +1428,7 @@ body {
   .headline-tag-container {
     gap: 7.96rem;
   }
-  
+
   .numbers-card-container {
     width: 80%;
   }
