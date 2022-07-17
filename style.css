@@ -54,6 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10rem;
+  overflow: hidden;
 }
 
 .scroll {
@@ -428,11 +429,11 @@ body {
   }
 
   .header__path {
-    top: -35%;
-    left: 40%;
+    top: -10%;
+    left: 50%;
     opacity: 0.2;
     z-index: 3000;
-    width: 60%;
+    width: 70%;
 
     transition: all 0.3s;
   }
