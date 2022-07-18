@@ -1331,11 +1331,15 @@ select::-ms-expand {
   }
 
   .left-side {
-    font-size: 2.5rem;
+    font-size: 3rem;
+  }
+
+  .left-side > h2 {
+    width: 55%;
   }
 
   .right-side {
-    padding: 4rem 0 2rem 7rem;
+    padding: 0 0 2rem 7rem;
   }
 
   .next__button {
@@ -1357,7 +1361,7 @@ select::-ms-expand {
   }
 
   .right-side {
-    padding: 4rem 0 2rem 7rem;
+    padding: 0 0 2rem 7rem;
   }
 }
 
@@ -1427,7 +1431,7 @@ select::-ms-expand {
   }
 
   .right-side {
-    padding: 3rem 0 2rem 4rem;
+    padding: 0 0 2rem 4rem;
   }
   .footer__nav-container {
     width: 60%;
@@ -1440,7 +1444,7 @@ select::-ms-expand {
   }
 
   .right-side {
-    padding: 3rem 0 1rem 2rem;
+    padding: 0 0 1rem 2rem;
   }
 
   .text2 {
