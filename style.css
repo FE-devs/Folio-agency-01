@@ -758,6 +758,10 @@ body {
   transform: translateY(2rem);
 }
 
+.josh {
+  color: orangered;
+}
+
 .figure-box p,
 span {
   font-size: 1.8rem;
