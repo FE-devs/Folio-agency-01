@@ -1040,7 +1040,10 @@ body {
   }
 
   .lastCTA__container {
-    height: 90vh;
+    height: 100vh;
+    grid-template-rows: 5rem 3rem 10rem 1fr;
+    row-gap: 3rem;
+    padding-bottom: 5rem;
   }
 
   .lastCTA__about--content {
@@ -1059,13 +1062,13 @@ body {
     border: none;
     border-top: 1px solid rgba(199, 196, 196, 0.192);
     margin: 0 auto;
-    margin-top: 10rem;
     width: 100%;
     padding: 0;
     font-size: 3rem;
     display: flex;
     text-align: center;
     flex-direction: column;
+    justify-content: center;
   }
 
   .left-side > h2 {
@@ -1079,7 +1082,7 @@ body {
 
   .contact-button {
     display: block;
-    margin-top: 5rem;
+    margin-top: 2rem;
   }
 
   .footer-text {
