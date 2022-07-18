@@ -659,19 +659,23 @@ body {
 /* <!-- END --> */
 
 /* <!-- JOB = JOSHUA --> */
-.section__jobs {
+.jobs {
+  width: 100vw;
+  max-width: 100%;
   background: linear-gradient(
     360deg,
     rgba(255, 255, 255, 0.0001) 0%,
     rgba(237, 229, 240, 0.504289) 100%
   );
-  margin: 3rem auto;
-  width: 100vw;
-  max-width: 100%;
-  width: 100%;
-  padding: 3rem;
-  display: flex;
-  justify-content: space-around;
+}
+
+.section__jobs {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 6rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
   position: relative;
 }
 
@@ -684,7 +688,6 @@ body {
 .section__jobs--col1 {
   display: flex;
   justify-content: flex-start;
-  width: 35%;
 }
 
 .section__jobs--logo {
@@ -722,7 +725,9 @@ body {
 }
 
 .section__jobs-col2 {
-  width: 45vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
 .cta-btn {
@@ -741,12 +746,8 @@ body {
 
 .figure-box {
   background-color: #fff;
-  padding: 4rem;
-  margin-bottom: 3rem;
-  border-radius: 2rem;
-  height: 25rem;
-  align-items: center;
-  align-content: center;
+  padding: 5rem 4rem;
+  border-radius: 3rem;
   box-shadow: 0 0.3rem 6rem rgba(0, 0, 0, 0.1);
 }
 
@@ -755,8 +756,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-items: center;
-  justify-content: center;
-  transform: translateY(2rem);
+  gap: 1.5rem;
 }
 
 .josh {
@@ -766,16 +766,13 @@ body {
 .figure-box p,
 span {
   font-size: 1.8rem;
-  margin-bottom: 2rem;
   color: var(--text-body-dark-mode);
 }
 
 .arrow-right {
-  /* fill: var(--text-body-dark-mode); */
-  width: 4rem;
+  width: 2rem;
   stroke: var(--text-body-dark-mode);
   height: 2rem;
-  transform: translateY(3rem);
 }
 
 .tablet-text {
@@ -785,6 +782,8 @@ span {
   justify-items: flex-start;
   padding: 2rem;
   transform: translateX(2rem);
+  width: 45%;
+  overflow: hidden;
 }
 
 .unique {
@@ -820,8 +819,9 @@ span {
 
 .heading--4 {
   font-size: 3.2rem;
-  margin-bottom: 1rem;
   color: var(--color-dark);
+  position: relative;
+  white-space: nowrap;
 }
 
 .curly-path {
@@ -832,19 +832,20 @@ span {
 }
 
 .notify {
-  display: inline-block;
-  background-color: #0837ae;
-  padding: 1.2rem;
-  border-radius: 100%;
-  color: #fff;
-  font-size: 2rem;
-  transform: translateX(2rem);
-  object-fit: cover;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  box-shadow: 0 0.3rem 6rem rgba(0, 0, 0, 0.1);
-  vertical-align: middle;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  position: absolute;
+  top: -5%;
+  right: -15%;
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+  color: var(--color-white);
+  background: linear-gradient(180deg, #3a8fff 0%, #0837ae 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* <!-- END --> */
 
