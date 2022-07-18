@@ -513,7 +513,7 @@ body {
 
   .navigation__content {
     position: absolute;
-    top: 200%;
+    top: 310%;
     left: 5%;
     height: 0;
     z-index: 5000;
@@ -598,6 +598,7 @@ body {
 
   .navigation__checkbox:checked ~ .navigation__background {
     width: 100vw;
+    position: fixed;
   }
 
   /* .navigation__checkbox:checked ~ .navigation__path {
@@ -1226,7 +1227,7 @@ span {
   }
 
   .lastCTA__container {
-    height: 90vh;
+    height: 100vh;
   }
 
   .lastCTA__about--content {
