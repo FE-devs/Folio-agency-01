@@ -513,7 +513,7 @@ body {
 
   .navigation__content {
     position: absolute;
-    top: 200%;
+    top: 310%;
     left: 5%;
     height: 0;
     z-index: 5000;
@@ -598,6 +598,7 @@ body {
 
   .navigation__checkbox:checked ~ .navigation__background {
     width: 100vw;
+    position: fixed;
   }
 
   /* .navigation__checkbox:checked ~ .navigation__path {
@@ -642,7 +643,192 @@ body {
 /* <!-- END --> */
 
 /* <!-- WHO ARE WE = ZION --> */
-/* <!-- WRITE CODE HERE --> */
+/* i'm using the acronym for 'who are we' => 'waw' for both my styling and the images */
+.waw{
+ display: flex;
+ flex-direction: column;
+ align-content: center;
+position: relative;
+}
+
+
+.waw-container{
+  padding: 10rem;
+  background-color: var(--color-dark);
+  background-image: url(./img/waw-line.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+margin: 0;
+  background-size: 150%;
+ display: grid;
+ grid-template-columns: repeat(12,1fr);
+ grid-auto-columns: minmax(50px,auto);
+ margin-top: 5rem;
+ background-color: var(--color-dark);
+ z-index: -1;
+}
+.waw-logo{
+grid-column: 1/2;
+}
+.waw-image-desktop img{
+  width: 100%;
+}
+
+.waw-waw{
+  grid-column: 3/6;
+  color: var(--color-white);
+  margin-left: 0.5rem;
+  font-size: 1.5rem;
+}
+.waw-waw span{
+  color: #8B8B8B;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+.waw-large-text{
+  grid-row: 2/3;
+  grid-column: 3/10;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 10rem;
+}
+.waw-arrows{
+  grid-row: 2/3;
+  grid-column: 11/13;
+  margin: 0 4rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+
+}
+.waw-arrows img{
+  width: 80%;
+}
+.waw-arrow-right{
+  background-color: #5468e7;
+  padding:1.5rem 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.waw-image-desktop{
+  grid-column: 3/13;
+  grid-row: 7/15;
+}
+.waw-3d img{
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 50%;
+  width: 50%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.waw-years{
+  grid-row: 7/15;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+.waw-group-text{
+  grid-row: 18/25;
+  grid-column: 3/8;
+  margin-top: 10rem;
+}
+.waw-number-t{
+  grid-column: 10/13;
+  grid-row: 18/25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.waw-number{
+  font-size: 13rem;
+  margin-top: 10rem;
+}
+.waw-little-text{
+color: #8B8B8B;
+font-size:1.5rem;
+line-height: 1.5;
+}
+.waw-small-text{
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+/* .waw-small-text::before{
+content:' ';
+position: absolute;
+width: 10px;
+height: 30px;
+color: white;
+top: 0;
+left: 50px;
+} */
+.waw-button{
+  background-color: #5468e7;
+  padding: 1rem 2rem;
+  color: white;
+  border: none;
+  border-radius: 0.7rem;
+  margin-top: 2rem;
+  font-weight: bold;
+}
+@media (max-width: 600px){
+  .waw-container{
+    padding: 5rem 2rem;
+    overflow-y: hidden;
+    margin: 0;
+  }
+  .waw-years{
+    display: none;
+  }
+  .waw-logo{
+    display: none;
+  }
+  .waw-large-text{
+    font-size:3rem ;
+    grid-column: 1/10;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .waw-button{
+    padding: 1.5rem 3rem;
+  }
+  .waw-3d{
+    display: none;
+  }
+  .waw-waw{
+    grid-column: 1/6;
+  }
+  .waw-arrows{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    margin: 1rem 0;
+  }
+  .waw-image-desktop{
+    grid-column: 1/13;
+    display: flex;
+    justify-content: center;
+  }
+  .waw-image-desktop img{
+    width: 135%;
+  }
+  .waw-group-text{
+    margin: 0;
+    grid-column: 1/13;
+  }
+  .waw-number-t{
+    margin: 0;
+    grid-column: 1/13;
+    grid-row: 25/28;
+  }
+}
 /* <!-- END --> */
 
 /* <!-- SERVICES = DEARIE --> */
@@ -658,7 +844,194 @@ body {
 /* <!-- END --> */
 
 /* <!-- JOB = JOSHUA --> */
-/* <!-- WRITE CODE HERE --> */
+.jobs {
+  width: 100vw;
+  max-width: 100%;
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.0001) 0%,
+    rgba(237, 229, 240, 0.504289) 100%
+  );
+}
+
+.section__jobs {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 6rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 5rem;
+  position: relative;
+}
+
+.sub-section-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section__jobs--col1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.section__jobs--logo {
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--color-primary);
+  padding: 3px;
+  margin-right: 6rem;
+}
+
+.job-title {
+  font-size: 1.8rem;
+  color: var(--color-primary);
+  margin-bottom: 2rem;
+}
+
+.job-title span {
+  margin-right: 1rem;
+}
+
+.heading--11 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11rem;
+  line-height: 10rem;
+  letter-spacing: -0.1rem;
+  color: var(--color-dark);
+}
+
+.section__jobs--text {
+  font-size: 1.8rem;
+  color: var(--text-body-dark-mode);
+  text-align: start;
+  margin: 3rem 0;
+}
+
+.section__jobs-col2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.cta-btn {
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.jobs-btn {
+  background-color: var(--circle-arrow);
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  border: none;
+}
+
+.figure-box {
+  background-color: #fff;
+  padding: 5rem 4rem;
+  border-radius: 3rem;
+  box-shadow: 0 0.3rem 6rem rgba(0, 0, 0, 0.1);
+}
+
+.figure-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-items: center;
+  gap: 1.5rem;
+}
+
+.josh {
+  color: orangered;
+}
+
+.figure-box p,
+span {
+  font-size: 1.8rem;
+  color: var(--text-body-dark-mode);
+}
+
+.arrow-right {
+  width: 2rem;
+  stroke: var(--text-body-dark-mode);
+  height: 2rem;
+}
+
+.tablet-text {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  justify-items: flex-start;
+  padding: 2rem;
+  transform: translateX(2rem);
+  width: 45%;
+  overflow: hidden;
+}
+
+.unique {
+  color: #fff !important;
+}
+
+.tablet-box {
+  height: 22rem;
+  width: auto;
+  overflow: hidden;
+  transform: translateX(-1rem);
+}
+
+.tablet-box img {
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-primary);
+  border-radius: 3rem;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #232340;
+  padding: 0;
+}
+
+.tablet {
+  background-color: #3a8fff;
+  width: 20%;
+}
+
+.heading--4 {
+  font-size: 3.2rem;
+  color: var(--color-dark);
+  position: relative;
+  white-space: nowrap;
+}
+
+.curly-path {
+  position: absolute;
+  top: 0;
+  left: 40rem;
+  z-index: -1;
+}
+
+.notify {
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  position: absolute;
+  top: -5%;
+  right: -15%;
+  height: 2.4rem;
+  width: 2.4rem;
+  border-radius: 50%;
+  color: var(--color-white);
+  background: linear-gradient(180deg, #3a8fff 0%, #0837ae 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* <!-- END --> */
 
 /* <!-- CTA & FOOTER = KENE --> */
@@ -1104,9 +1477,12 @@ select::-ms-expand {
 
   .lastCTA__container {
     height: 100vh;
+<<<<<<< HEAD
     grid-template-rows: 5rem 3rem 10rem 1fr;
     row-gap: 3rem;
     padding-bottom: 5rem;
+=======
+>>>>>>> 2d030a5c738f4cc63f04f093ccf865780c7cf88d
   }
 
   .lastCTA__about--content {
@@ -1239,7 +1615,7 @@ select::-ms-expand {
 
 /*///////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////  /
+///////////////////////////////////////////////////////////////// 
 
 
  /* <!-- DESKTOP CASE STUDY OR WORK PAGE --> */
@@ -1443,7 +1819,7 @@ select::-ms-expand {
   align-items: center;
 }
 
-.arrow-left {
+.pointer-arrow-left {
   background: none;
 }
 
