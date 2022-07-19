@@ -1547,7 +1547,7 @@ left: 50px;
   }
 
   .lastCTA__container {
-    height: 100vh;
+    height: 90vh;
     grid-template-rows: 5rem 3rem 10rem 1fr;
     row-gap: 3rem;
     padding-bottom: 5rem;
