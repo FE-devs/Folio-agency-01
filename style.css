@@ -850,6 +850,7 @@ left: 50px;
     rgba(255, 255, 255, 0.0001) 0%,
     rgba(237, 229, 240, 0.504289) 100%
   );
+  overflow: hidden;
 }
 
 .section__jobs {
@@ -860,18 +861,6 @@ left: 50px;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 5rem;
   position: relative;
-}
-
-@media screen and (max-width: 43em) {
-  .section__jobs {
-    grid-template-columns: minmax(30rem, 1fr);
-  }
-}
-
-@media screen and (max-width: 43em) {
-  .logo {
-    display: none;
-  }
 }
 
 .sub-section-1 {
@@ -975,10 +964,10 @@ left: 50px;
   justify-items: center;
   flex-direction: column;
   justify-items: flex-start;
-  padding: 2rem;
-  transform: translateX(2rem);
-  width: 45%;
+  padding: 4rem;
+  width: auto;
   overflow: hidden;
+  gap: 1.5rem;
 }
 
 .unique {
@@ -986,7 +975,7 @@ left: 50px;
 }
 
 .tablet-box {
-  height: 22rem;
+  height: 16rem;
   width: auto;
   overflow: hidden;
   transform: translateX(-1rem);
@@ -1004,7 +993,7 @@ left: 50px;
   justify-content: space-between;
   align-items: center;
   background-color: #232340;
-  padding: 0;
+  padding: 0 0;
 }
 
 .tablet {
@@ -1019,17 +1008,18 @@ left: 50px;
   white-space: nowrap;
 }
 
-@media screen and (max-width: 43em) {
-  .heading--4 {
-    font-size: 2.8rem;
-  }
+.curly {
+  position: absolute;
+  top: 0;
+  left: 25rem;
+  z-index: -1;
 }
 
 .curly-path {
-  position: absolute;
-  top: 0;
-  left: 40rem;
-  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .notify {
@@ -1048,6 +1038,41 @@ left: 50px;
   align-items: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 37.5em) {
+  .blue-box {
+    width: 130%;
+  }
+
+  .blue-box .tablet-text {
+    width: 75%;
+    padding: 4rem;
+  }
+
+  .tablet-box {
+    padding: 1rem;
+  }
+
+  .figure-box {
+    padding: 3rem 4rem;
+  }
+
+  .heading--4 {
+    font-size: 2.5rem;
+  }
+
+  .notify {
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 2rem;
+    right: -18%;
+  }
+
+  .logo {
+    display: none;
+  }
+}
+
 /* <!-- END --> */
 
 /* <!-- CTA & FOOTER = KENE --> */
