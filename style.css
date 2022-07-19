@@ -1053,8 +1053,10 @@ span {
 
 .folio-cta-logo {
   background-color: var(--footer-purple);
-  padding: 0.2rem;
+  padding: 0.3rem;
   border-radius: 5px;
+  width: 40px;
+  height: 40px;
 }
 
 .lastCTA__greeting {
@@ -1103,7 +1105,7 @@ span {
 .left-side > h2 {
   margin-top: -1rem;
   padding: 0 1rem;
-  width: 40%;
+  width: 45%;
 }
 
 .right-side {
@@ -1171,7 +1173,7 @@ span {
   height: 80px;
 }
 
-select {
+#slct {
   -webkit-appearance: none;
   -moz-appearance: none;
   -ms-appearance: none;
@@ -1194,7 +1196,7 @@ select {
   display: none;
 }
 
-select {
+#slct {
   width: 100%;
   height: 100%;
   margin: 0;
@@ -1205,7 +1207,7 @@ select {
   cursor: pointer;
 }
 
-select::-ms-expand {
+#slct::-ms-expand {
   display: none;
 }
 
@@ -1257,12 +1259,12 @@ select::-ms-expand {
   width: 45%;
   margin: 0 auto;
   font-size: 2rem;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .footer__nav-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 43%;
   padding: 0.5rem 0 4rem;
   margin: 0 auto;
@@ -1294,6 +1296,7 @@ select::-ms-expand {
 
 .copywright {
   color: #a09f9f;
+  font-size: 1.4rem;
 }
 
 .socials-container {
@@ -1319,6 +1322,12 @@ select::-ms-expand {
 
 .instagram:hover {
   fill: rgba(248, 2, 248, 0.76);
+}
+
+@media only screen and (max-width: 1900px) {
+  .footer-text {
+    width: 62%;
+  }
 }
 
 @media only screen and (max-width: 1460px) {
@@ -1349,6 +1358,10 @@ select::-ms-expand {
   .footer {
     width: 70%;
   }
+
+  .footer-text {
+    width: 57%;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -1357,11 +1370,15 @@ select::-ms-expand {
   }
 
   .left-side > h2 {
-    width: 45%;
+    width: 60%;
   }
 
   .right-side {
     padding: 0 0 2rem 7rem;
+  }
+
+  .footer-text {
+    width: 53%;
   }
 }
 
@@ -1372,11 +1389,7 @@ select::-ms-expand {
   }
 
   .left-side > h2 {
-    width: 50%;
-  }
-
-  .footer-text {
-    width: 53%;
+    width: 60%;
   }
 
   .footer {
@@ -1391,6 +1404,10 @@ select::-ms-expand {
 
   .lastCTA__about--content {
     width: 60%;
+  }
+
+  .left-side > h2 {
+    width: 65%;
   }
 
   .footer {
@@ -1416,7 +1433,7 @@ select::-ms-expand {
   }
 
   .left-side > h2 {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -1426,7 +1443,6 @@ select::-ms-expand {
   }
 
   .left-side > h2 {
-    width: 70%;
     padding: 0 0 0 1rem;
   }
 
@@ -1440,7 +1456,7 @@ select::-ms-expand {
 
 @media only screen and (max-width: 700px) {
   .left-side {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
 
   .right-side {
@@ -1557,6 +1573,11 @@ select::-ms-expand {
     border: 0.1px solid #b3b1b1;
     border-radius: 50%;
     padding: 0.2rem;
+  }
+
+  .facebook {
+    background-color: #7989ee;
+    fill: var(--color-white);
   }
 
   .facebook:active {
