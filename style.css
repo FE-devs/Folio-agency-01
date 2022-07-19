@@ -936,7 +936,7 @@ left: 50px;
 
 .figure-box {
   background-color: #fff;
-  padding: 5rem 4rem;
+  padding: 4rem;
   border-radius: 3rem;
   box-shadow: 0 0.3rem 6rem rgba(0, 0, 0, 0.1);
 }
@@ -1056,10 +1056,6 @@ left: 50px;
 
   .tablet-box {
     padding: 1rem;
-  }
-
-  .figure-box {
-    padding: 3rem 4rem;
   }
 
   .heading--4 {
