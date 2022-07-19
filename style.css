@@ -299,6 +299,10 @@ body {
   display: block;
 }
 
+/* .header__image--hero {
+  filter: contrast();
+} */
+
 .header__path {
   position: absolute;
   top: 0;
@@ -349,9 +353,9 @@ body {
 
 /* MEDIA QUERIES FOR TABLET IN PORTRAIT */
 @media screen and (max-width: 56.25em) {
-  html {
+  /* html {
     font-size: 50%;
-  }
+  } */
 
   .scroll {
     display: none;
@@ -445,7 +449,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 5rem 3rem 1rem;
-    position: relative;
+    position: sticky;
   }
 
   .navigation__logo {
@@ -491,7 +495,7 @@ body {
     height: 0.2rem;
     background-color: var(--color-dark);
     z-index: 5000;
-    transition: all 0.2s;
+    transition: all 0.8s;
   }
 
   .navigation__icon::before {
@@ -507,7 +511,7 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    transition: all 0.2s cubic-bezier(0.86, 0, 0.07, 1);
+    transition: all 0.8s cubic-bezier(0.86, 0, 0.07, 1);
     z-index: 3700;
   }
 
@@ -519,6 +523,7 @@ body {
     z-index: 5000;
     opacity: 0;
     visibility: hidden;
+    transform: translateX(50%);
 
     display: flex;
     flex-direction: column;
@@ -598,7 +603,6 @@ body {
 
   .navigation__checkbox:checked ~ .navigation__background {
     width: 100vw;
-    position: fixed;
   }
 
   /* .navigation__checkbox:checked ~ .navigation__path {
@@ -624,6 +628,7 @@ body {
     opacity: 1;
     visibility: visible;
     height: max-content;
+    transform: translateX(0);
   }
 
   .navigation__checkbox:checked ~ .header__path {
@@ -764,7 +769,7 @@ body {
 }
 
 .figure-box p,
-span {
+.figure-box span {
   font-size: 1.8rem;
   color: var(--text-body-dark-mode);
 }
