@@ -836,7 +836,86 @@ left: 50px;
 /* <!-- END --> */
 
 /* <!-- WORKS = JOHN --> */
-
+.works{
+  width: 100vw;
+  max-width: 100%;
+  background: linear-gradient(
+    360deg,
+    rgba(255, 255, 255, 0.0001) 0%,
+    rgba(237, 229, 240, 0.504289) 100%
+  );
+}
+.content2-container{
+  margin-left: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+.card-main-text-2{
+  color: #000000;
+  margin-left: 5px;
+}
+.works-btn{
+  background-color:#5468e7 ;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  cursor: pointer;
+  margin-left: 50rem;
+  margin-top: -14rem;
+}
+.logo{
+  margin-left: 10rem;
+  margin-bottom: 5rem;
+}
+.works-box_2{
+     height: 35rem;
+     border: 2px solid lightblue;
+     background-color: lightblue;
+     width: 30rem;
+     border-radius: 2rem;
+     margin-left: 40rem;
+     margin-top: -43rem;
+}
+.works-box{
+  border: 2px solid rgb(170, 122, 77);
+  background-color: rgb(170, 122, 77);
+  width: 30rem;
+  height: 35rem;
+  border-radius: 2rem;
+}
+.works-box span img{
+   width: 30rem;
+   height: 30rem;
+}
+.works-container{
+  margin-left: 20rem;
+}
+.card-text-1{
+  color: #000000;
+  margin-left: 5px;
+}
+.header_section_1{
+  color: #000000;
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 10rem;
+}
+.card-body img{
+  width: 25rem;
+  height: 35rem;
+}
+.paragraph_section_2{
+  color: #8b8b8b;
+}
+.paragrap-section{
+  font-size: 1.8rem;
+  color: var(--color-primary);
+}
+.paragrap-section  span{
+color:var(--color-primary);
+margin-right: 2rem;
+}
 
 /* <!-- END --> */
 
