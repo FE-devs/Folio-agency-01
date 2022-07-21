@@ -845,13 +845,19 @@ left: 50px;
     rgba(237, 229, 240, 0.504289) 100%
   );
 }
+.section__work{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
 .content2-container{
   margin-left: 20rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 6.5rem;
 }
 .card-main-text-2{
-  color: #000000;
+  color: #232340;
   margin-left: 5px;
 }
 .works-btn{
@@ -861,52 +867,110 @@ left: 50px;
   height: 5rem;
   border: none;
   cursor: pointer;
-  margin-left: 50rem;
-  margin-top: -14rem;
+  margin-left: 62rem;
+  margin-top: -16.5rem;
+  position: absolute;
 }
-.logo{
-  margin-left: 10rem;
-  margin-bottom: 5rem;
+.logo_2{
+  margin-top:10rem;
 }
 .works-box_2{
-     height: 35rem;
-     border: 2px solid lightblue;
-     background-color: lightblue;
+     height: 40rem;
+     border: 2px solid #D1ECFD;
+     background-color:#D1ECFD;
      width: 30rem;
      border-radius: 2rem;
-     margin-left: 40rem;
-     margin-top: -43rem;
+     box-shadow: 2px 2px 2px 3px rgb(228, 225, 225);
+}
+
+.works-box_2 span img{
+  margin-right: 20rem;
+  width: 40rem;
+  margin-left: -4.5rem;
+  height: 30rem;
+  margin-top: 4rem ;
+}
+.works-box span h5{
+  
+}
+.section-work--col1 .logo{
+  background-color: pink;
+  width: 7rem;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+h5{
+  top: 3rem;
 }
 .works-box{
-  border: 2px solid rgb(170, 122, 77);
-  background-color: rgb(170, 122, 77);
+  border: 2px solid #FFCE79;
+  background-color: #FFCE79;
   width: 30rem;
-  height: 35rem;
+  height: 40rem;
   border-radius: 2rem;
+  box-shadow: 2px 2px 2px 3px rgb(228, 225, 225);
 }
 .works-box span img{
-   width: 30rem;
+   width: 37rem;
    height: 30rem;
+   position: absolute;
+   justify-content: center;
+   margin-left: -13rem;
+   margin-bottom: 3rem;
+   margin-top: 3rem;
+}
+.bg-btn{
+  background-color: #9A97ED;
+  border: none;
+  height: 3rem;
+  width: 12rem;
+  border-radius: 3rem;
+  color: white;
+  margin-top: 3rem;
+  margin-left: -3rem;
 }
 .works-container{
   margin-left: 20rem;
+  margin-top: -2rem;
 }
 .card-text-1{
-  color: #000000;
+  color: #8b8b8b;
   margin-left: 5px;
+  font-family: 'SF Pro Display';
 }
+.card-text{
+  color: #232340;
+  margin-left: 1rem;
+  font-family: 'SF Pro Display';
+}
+.card-p{
+  color: #8b8b8b;
+  margin-left: 5px;
+  font-family: 'SF Pro Display';
+}
+
 .header_section_1{
   color: #000000;
   font-size: 5rem;
   font-weight: bold;
+  letter-spacing: -1px;
   line-height: 10rem;
 }
 .card-body img{
   width: 25rem;
   height: 35rem;
 }
+.works-container{
+  
+}
+
 .paragraph_section_2{
   color: #8b8b8b;
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
 }
 .paragrap-section{
   font-size: 1.8rem;
