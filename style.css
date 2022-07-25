@@ -22,7 +22,6 @@
 }
 
 /* <!-- DESKTOP FULL PAGE OR ABOUT PAGE --> */
-
 /* GENERAL STYLE FOR PAGE LAYOUT AND RESPONSIVENESS */
 *,
 *::before,
@@ -60,7 +59,7 @@ body {
 
 .scroll {
   position: absolute;
-  bottom: -60%;
+  bottom: 0;
   left: 10%;
   display: flex;
   align-items: center;
@@ -160,7 +159,7 @@ body {
   width: 2.4rem;
   border-radius: 50%;
   color: var(--color-white);
-  background: linear-gradient(180deg, #3a8fff 0%, #0837ae 100%);
+  background: var(--gradient-gradient2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -368,12 +367,10 @@ body {
     gap: 3rem;
   }
 }
-
 /* ANIMATIONS SECTION */
-
 /* END */
-/* FOR MOBILE DEVICES ---- < 600PX */
 
+/* FOR MOBILE DEVICES ---- < 600PX */
 @media screen and (max-width: 37.5em) {
   html {
     font-size: 62.5%;
@@ -441,7 +438,6 @@ body {
   }
 
   /* STYLES FOR THE MOBILE MENU-TOGGLE BUTTTON */
-
   .navigation {
     width: 100vw;
     display: flex;
@@ -567,16 +563,6 @@ body {
     border: 0.1rem solid var(--text-body-dark-mode);
   }
 
-  /* .navigation__path {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 25%;
-    z-index: -100;
-    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1);
-  } */
-
   #current {
     color: var(--color-white);
   }
@@ -602,11 +588,6 @@ body {
     width: 100vw;
     position: fixed;
   }
-
-  /* .navigation__checkbox:checked ~ .navigation__path {
-    opacity: 1;
-    visibility: visible;
-  } */
 
   .navigation__checkbox:checked
     ~ .navigation__logo
@@ -641,63 +622,61 @@ body {
     font-size: 48%;
   }
 }
-
 /* <!-- END --> */
 
 /* <!-- WHO ARE WE = ZION --> */
 /* i'm using the acronym for 'who are we' => 'waw' for both my styling and the images */
-.waw{
- display: flex;
- flex-direction: column;
- align-content: center;
-position: relative;
+.waw {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: relative;
 }
 
-
-.waw-container{
+.waw-container {
   padding: 9rem;
   background-color: var(--color-dark);
   background-image: url(./img/waw-line.svg);
   background-repeat: no-repeat;
   background-position: top;
-margin: 0;
+  margin: 0;
   background-size: 150%;
- display: grid;
- grid-template-columns: repeat(12,1fr);
- grid-auto-columns: minmax(50px,auto);
- margin-top: 5rem;
- background-color: var(--color-dark);
- z-index: -1;
- position: relative;
- width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-columns: minmax(50px, auto);
+  margin-top: 5rem;
+  background-color: var(--color-dark);
+  z-index: -1;
+  position: relative;
+  width: 100vw;
 }
-.waw-logo{
-grid-column: 1/2;
+.waw-logo {
+  grid-column: 1/2;
 }
-.waw-image-desktop img{
+.waw-image-desktop img {
   width: 100%;
 }
 
-.waw-waw{
+.waw-waw {
   grid-column: 3/6;
   color: var(--color-white);
   margin-left: 0.5rem;
   font-size: 1.5rem;
 }
-.waw-waw span{
-  color: #8B8B8B;
+.waw-waw span {
+  color: #8b8b8b;
   margin-right: 1.5rem;
   font-size: 1.5rem;
 }
 
-.waw-large-text{
+.waw-large-text {
   grid-row: 2/3;
   grid-column: 3/10;
   font-size: 5rem;
   font-weight: bold;
   margin-bottom: 10rem;
 }
-.waw-arrows{
+.waw-arrows {
   grid-row: 2/3;
   grid-column: 11/13;
   margin: 0 4rem;
@@ -705,24 +684,23 @@ grid-column: 1/2;
   justify-content: space-around;
   align-items: baseline;
   min-width: 50px;
-
 }
-.waw-arrows img{
+.waw-arrows img {
   width: 80%;
 }
-.waw-arrow-right{
+.waw-arrow-right {
   background-color: #5468e7;
-  padding:1.5rem 1rem;
+  padding: 1.5rem 1rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.waw-image-desktop{
+.waw-image-desktop {
   grid-column: 3/13;
   grid-row: 7/15;
 }
-.waw-3d img{
+.waw-3d img {
   position: absolute;
   background-repeat: no-repeat;
   background-position: top right;
@@ -732,7 +710,7 @@ grid-column: 1/2;
   right: 0;
   z-index: -1;
 }
-.waw-years{
+.waw-years {
   grid-row: 7/15;
   grid-column: 1/2;
   display: flex;
@@ -740,40 +718,40 @@ grid-column: 1/2;
   justify-content: space-around;
   padding-bottom: 5rem;
 }
-.waw-group-text{
+.waw-group-text {
   grid-row: 18/25;
   grid-column: 3/8;
   margin-top: 10rem;
 }
-.waw-number-t{
+.waw-number-t {
   grid-column: 10/13;
   grid-row: 18/25;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.waw-number{
+.waw-number {
   font-size: 13rem;
   margin-top: 10rem;
 }
-.waw-little-text{
-color: #8B8B8B;
-font-size:1.5rem;
-line-height: 1.5;
+.waw-little-text {
+  color: #8b8b8b;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
-.waw-small-text{
+.waw-small-text {
   font-size: 2.5rem;
   margin-bottom: 2.5rem;
   position: relative;
 }
 
-  .waw-number-oval{
-    display: block;
-    position: absolute;
-    z-index: -1;
-    width: 100%;
-    max-width: 350px;
-  }
+.waw-number-oval {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  max-width: 350px;
+}
 
 /* .waw-small-text::before{
 content:' ';
@@ -784,7 +762,7 @@ color: white;
 top: 0;
 left: 50px;
 } */
-.waw-button{
+.waw-button {
   background-color: #5468e7;
   padding: 1rem 2rem;
   color: white;
@@ -793,97 +771,93 @@ left: 50px;
   margin-top: 2rem;
   font-weight: bold;
 }
-.waw-caret-down{
+.waw-caret-down {
   display: none;
 }
 
-@media (max-width: 600px){
-  .waw-container::-webkit-scrollbar{
+@media (max-width: 600px) {
+  .waw-container::-webkit-scrollbar {
     width: 0;
   }
-  .waw-container{
+  .waw-container {
     padding: 5rem 2rem;
     overflow-y: hidden;
     margin: 0;
   }
-.waw-years-list{
+  .waw-years-list {
     display: none;
   }
-  .waw-logo{
+  .waw-logo {
     display: none;
   }
-  .waw-large-text{
-    font-size:3rem ;
+  .waw-large-text {
+    font-size: 3rem;
     grid-column: 1/10;
     margin-top: 2rem;
     margin-bottom: 2rem;
   }
-  .waw-button{
+  .waw-button {
     padding: 1.5rem 3rem;
   }
-  .waw-3d{
+  .waw-3d {
     display: none;
   }
-  .waw-waw{
+  .waw-waw {
     grid-column: 1/8;
   }
-  .waw-arrows{
+  .waw-arrows {
     grid-column: 1/4;
     grid-row: 3/4;
     margin: 1rem 0;
   }
-  .waw-image-desktop{
+  .waw-image-desktop {
     grid-column: 1/13;
     display: flex;
     justify-content: center;
   }
-  .waw-image-desktop img{
+  .waw-image-desktop img {
     width: 175%;
     flex-shrink: 0;
   }
-  .waw-group-text{
+  .waw-group-text {
     margin: 0;
     grid-column: 1/13;
   }
-  .waw-number-t{
-
+  .waw-number-t {
     grid-column: 2/12;
     flex-shrink: 1;
     grid-row: 25;
     margin-bottom: 10rem;
-   
   }
-.waw-number-oval{
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  max-width: 400px;
-}
-.waw-years{
-
-  z-index: 1;
-  grid-column: 5/13;
-  grid-row: 3;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-
-}
-.waw-y-five{
-  display: block;
-  z-index: 1;
-  font-size: 2rem;
-}
-.waw-caret-down{
-  display: block;
-  font-size: 5rem;
-  align-self: center;
-  margin-bottom: -3rem;
-  color: white;
-  font-weight: 200;
-}
+  .waw-number-oval {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    max-width: 400px;
+  }
+  .waw-years {
+    z-index: 1;
+    grid-column: 5/13;
+    grid-row: 3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+  }
+  .waw-y-five {
+    display: block;
+    z-index: 1;
+    font-size: 2rem;
+  }
+  .waw-caret-down {
+    display: block;
+    font-size: 5rem;
+    align-self: center;
+    margin-bottom: -3rem;
+    color: white;
+    font-weight: 200;
+  }
 }
 /* <!-- END --> */
 
@@ -1939,7 +1913,6 @@ span {
 /* <!-- END --> */
 
 /* <!-- RECENT WORKS = ZION, JOSHUA & DARLENE --> */
-
 
 /* <!-- END --> */
 
