@@ -1085,8 +1085,8 @@ span {
 
   .section__jobs {
     width: 85vw;
+  }
 }
-
 @media screen and (max-width: 37.5em) {
   .blue-box {
     width: 130%;
