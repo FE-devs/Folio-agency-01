@@ -900,7 +900,7 @@ left: 50px;
   justify-items: center;
   flex-direction: column;
   justify-items: flex-start;
-  padding: 4rem;
+  padding: 0 4rem;
   width: auto;
   overflow: hidden;
   gap: 1.5rem;
