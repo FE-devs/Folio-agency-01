@@ -1079,12 +1079,22 @@ span {
 }
 
 @media screen and (max-width: 68.75em) {
+
   .tablet-text h4 {
     font-size: 2.7rem;
   }
 
   .section__jobs {
     width: 85vw;
+  }
+
+  .blue-box {
+    width: 116%;
+    padding: 2rem 3rem !important;
+  }
+
+  .figure-box {
+    width: 116%;
   }
 }
   @media screen and (max-width: 37.5em) {
