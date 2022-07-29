@@ -40,7 +40,7 @@ html {
 body {
   font-family: "SF Pro Display", sans-serif;
   font-size: 1.6rem;
-  color: var(--color-dark);
+  color: var(--color-white);
 }
 
 .container {
@@ -1634,16 +1634,17 @@ span {
 
 /* <!-- HERO SECTION = ZEUHZ, DEARIE & GHAFFAR --> */
 .bento__content {
+  color: var(--text-dark);
   display: grid;
   align-items: center;
 }
 
 .bento__arrows {
   display: flex;
+  align-self: flex-start;
 }
 
 .bento__arrow {
-  align-self: flex-start;
   height: 6.4rem;
   width: 6.4rem;
   padding: 1rem;
@@ -1689,7 +1690,7 @@ span {
 .bento__icons {
   align-self: flex-end;
   display: flex;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 .bento__icon {
