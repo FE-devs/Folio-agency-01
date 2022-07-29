@@ -2464,6 +2464,7 @@ span {
 .rw-cardcolor1{
   margin-right: auto;
   background-color: rgba(255, 206, 121, 1);
+  position: relative;
 }
 .rw-cardcolor2{
   margin-left: auto;
@@ -2496,6 +2497,16 @@ span {
 .RW__card-small-text{
   line-height: 1.8;
   font-size: 1.2rem;
+}
+.rw-fp{
+  position: absolute;
+  background-color: rgba(154, 151, 237, 1);
+  padding: 0.5rem 1.3rem;
+  left: -50px;
+  top: 40px;
+  color: white;
+  border-radius: 25px;
+  font-size: 1.3rem;
 }
 @media (max-width:550px) {
   .RW__logo{
@@ -2533,6 +2544,9 @@ span {
   .RW__small-text{
     margin-left: 12%;
     margin-top: 2%;
+  }
+  .rw-fp{
+    display: none;
   }
 }
 /* <!-- END --> */
