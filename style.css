@@ -1002,11 +1002,11 @@ left: 50px;
   color: orangered;
 }
 
-.figure-box p,
+/* .figure-box p,
 span {
   font-size: 1.8rem;
   color: var(--text-body-dark-mode);
-}
+} */
 
 .arrow-right {
   width: 2rem;
@@ -1937,8 +1937,165 @@ span {
 /* <!-- END --> */
 
 /* <!-- RECENT WORKS = ZION, JOSHUA & DARLENE --> */
+.RW{
+  
+  margin: 10rem 0;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.RW-container{
+  background: url("./img/rw-lines.png") no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.RW__logo-symbol{
+  position: absolute;
+  left: 1rem;
+  top: 0;
+}
+.RW__header{
+  display: flex;
+  width: 100%;
+}
+.RW__logo{
 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 50%;
+}
+.RW__logo img{
+  background-color: #5468E7;
+  padding: 1.3rem 1rem;
+  border-radius: 50%;
+  margin-left: auto;
+}
+.RW__header-text{
+  display: flex;
+  flex-direction: column;
+  flex:1 1 50%;
+  gap: 3rem;
+}
+.RW__small-text{
+  color: #5468e7;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.RW__main-header{
+  font-size: 5rem;
+}
+.RW__paragraph{
+  color: #606060;
+}
+.RW__main-content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
+.RW_card-1,.RW_card-2{
+  width: 170%;
+  
+}
+.rw-cardcolor1,.rw-cardcolor2{
+  min-width: 25rem;
+  max-width: 35rem;
+  height: 45rem;
 
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.rw-cardcolor1{
+  margin-right: auto;
+  background-color: rgba(255, 206, 121, 1);
+}
+.rw-cardcolor2{
+  margin-left: auto;
+  background-color: rgba(144, 140, 255, 1);
+}
+.RW__card-text{
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.RW__main-content-left,.RW__main-content-right{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+}
+.RW-circle-arrow-left img,.RW-circle-arrow-right img{
+  position: absolute
+}
+.RW-circle-arrow-left,.RW-circle-arrow-right{
+  position: absolute;
+  right: 3rem;
+  bottom: 24rem;
+}
+.RW__card-big-text{
+  font-size: 3rem;
+  font-weight: 700;
+}
+.RW__card-small-text{
+  line-height: 1.8;
+  font-size: 1.2rem;
+}
+@media (max-width:550px) {
+  .RW__logo{
+    display: none;
+    
+  }
+  .RW-container{
+    gap: 3rem;
+  }
+  .RW__main-content{
+    gap: 5rem;
+  }
+  .RW-circle-arrow-left,.RW-circle-arrow-right{
+    position: static;
+  }
+  .rw-cardcolor1,.rw-cardcolor2{
+    min-width: 0;
+    max-width: 100%;
+    margin: auto;
+  }
+  .RW-circle-arrow-left img,.RW-circle-arrow-right img{
+    position:static;
+  }
+  .RW__main-content-left,.RW__main-content-right{
+    width: 100%;
+  }
+  .RW__card-text{
+    width: 100%;
+  }
+  .RW__logo-symbol{
+    position: absolute;
+    left: 10%;
+    top: 0;
+  }
+  .RW__small-text{
+    margin-left: 12%;
+    margin-top: 2%;
+  }
+}
 /* <!-- END --> */
 
 /* <!-- CTA & FOOTER = KENE & ADETOYE --> */
