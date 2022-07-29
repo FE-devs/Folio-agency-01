@@ -5,8 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Folio-agency-01</title>
+    <!-- PATH LINK FOR FONT STYLES -->
+    <link
+      href="http://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+
+    <!-- PATH LINK FOR GENERAL STYLES-->
     <link rel="stylesheet" href="../style.css" />
-    <script src="../app.js" defer></script>
+
+    <!-- FAVICON ICON PATH LINK -->
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../img/folio-favicon.png"
+    />
   </head>
   <body>
     <!-- DESKTOP CASE STUDY OR ABOUT PAGE -->
@@ -14,7 +27,7 @@
     <!-- HERO SECTION = ZEUHZ, DEARIE & GHAFFAR -->
     <header id="hero-header">
       <!-- SCROLL PAGE ELEMENT -->
-      <div class="scroll">
+      <!-- <div class="scroll">
         <button class="btn btn--scroll">
           <img
             src="../img/arrow-down.svg"
@@ -27,7 +40,7 @@
           >Swipe down <br />
           to explore</span
         >
-      </div>
+      </div> -->
 
       <!-- NAVIGATION SECTION -->
       <nav class="navigation">
@@ -65,12 +78,10 @@
         <div class="navigation__content">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a href="../index.html" class="navigation__link" id="current"
-                >About</a
-              >
+              <a href="../index.html" class="navigation__link">About</a>
             </li>
             <li class="navigation__item">
-              <a href="work.html" class="navigation__link">Work</a>
+              <a href="work.html" id="current" class="navigation__link">Work</a>
             </li>
             <li class="navigation__item">
               <a href="#" class="navigation__link">Services</a>
@@ -114,49 +125,68 @@
 
         <figure class="header__path">
           <picture>
-            <source
-              media="(max-width: 37.5rem)"
-              srcset="../img/hero-path-mobile.svg"
-            />
-
-            <img src="../img/hero-path.svg" alt="hero curly line path" />
+            <img src="../img/bento-Path.svg" alt="hero curly line path" />
           </picture>
         </figure>
       </nav>
 
       <!-- HEADER HERO CONTENT -->
       <div class="header__hero">
-        <div class="header__content">
-          <h1 class="heading--1">
-            Stand Out <br />
-            from The <br />
-            Crowd.
-          </h1>
-          <p class="header__content--text">
-            folio is a full service agency busy designing and building beautiful
-            digital products, brands and experiences.
-          </p>
-          <button class="btn btn--colored">Recent Work</button>
+        <div class="bento__content">
+          <div class="bento__arrows">
+            <figure class="bento__arrow bento__arrow--empty">
+              <img src="../img/arrow-left-dark.svg" alt="arrow right" />
+            </figure>
+            <figure class="bento__arrow">
+              <img src="../img/arrow-right-white.svg" alt="arrow right" />
+            </figure>
+          </div>
+          <div class="bento__details">
+            <p class="bento--tag">Featured Product</p>
+            <h1 class="heading--1">Bento <span class="bento--dot"></span></h1>
+            <p class="plain--text">
+              Drag & Drop 3D Visual <br />
+              Design System.
+            </p>
+          </div>
+          <div class="bento__icons">
+            <div class="bento__icon-box">
+              <figure class="bento__icon">
+                <img src="../img/bento-shape.svg" alt="bento shape" />
+              </figure>
+              <p class="bento--caption">
+                Global Digital <br />Agency of Record
+              </p>
+            </div>
+            <div class="bento__icon-box">
+              <figure class="bento__icon">
+                <img src="../img/bento-incognito.svg" alt="bento shape" />
+              </figure>
+              <p class="bento--caption">
+                5 Years of Digital <br />
+                Marketing Excellence
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div class="header__image">
+        <div class="header__image bento">
           <figure class="header__figure-bg">
             <img
-              src="../img/hero-desktop-bg.svg"
+              src="../img/bento-bg.svg"
               alt="hero image background"
               class="header__image--bg"
             />
           </figure>
-          <figure class="header__figure-hero">
+          <figure class="header__figure-hero bento">
             <picture>
-              <source
+              <!-- <source
                 media="(max-width: 37.5rem)"
                 srcset="../img/hero graphic.png"
-              />
+              /> -->
 
               <img
-                src="../img/hero img.png"
-                alt="hero image"
+                src="../img/bento-image.png"
+                alt="bento image"
                 class="header__image--hero"
               />
             </picture>
@@ -167,7 +197,79 @@
     <!-- END -->
 
     <!-- OVERVIEW = DARLENE -->
-    <!-- WRITE CODE HERE -->
+    <section class="overview">
+      <div class="overview__wrapper">
+        <div class="overview__left__side">
+          <figure class="overview__image">
+            <img
+              src="../img/[ 4 ] – Tablet.png"
+              alt="tablet"
+              class="overview__img"
+            />
+          </figure>
+          <div class="overview__btns">
+            <input
+              type="radio"
+              name="overview"
+              aria-label="slide"
+              class="overview__btn"
+            />
+            <input
+              type="radio"
+              name="overview"
+              aria-label="slide"
+              class="overview__btn"
+            />
+            <input
+              type="radio"
+              name="overview"
+              aria-label="slide"
+              class="overview__btn"
+            />
+          </div>
+        </div>
+        <div class="overview__right__side">
+          <p class="overview__title">
+            <span class="number__one">01</span>
+            <span class="overview__view">Overview</span>
+          </p>
+          <h2 class="right__side__two">
+            The First Fully Editable, 3D Visual Design System.
+          </h2>
+          <h6 class="right__side__three">
+            Effortlessly combine different elements to create compelling
+            compositions that will surely help you tell a better story for your
+            landing pages, websites, portfolios, presentations, and more in just
+            a matter of minutes.
+          </h6>
+          <h4 class="right__side__four">
+            🔥 The number of applications and use cases is nearly endless.
+          </h4>
+          <div class="right__side__five">
+            <div class="power__part">
+              <figure class="power__buttn">
+                <img
+                  src="../img/volume.png"
+                  alt="volume"
+                  class="power__buttn__img"
+                />
+              </figure>
+              <p class="label">Fully Editable</p>
+            </div>
+            <div class="power__part">
+              <figure class="power__buttn speech-buttn">
+                <img
+                  src="../img/SpeachBubble V2 2.png"
+                  alt="volume"
+                  class="speech__buttn__img"
+                />
+              </figure>
+              <p class="label">High Resolution</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- END -->
 
     <!-- BY THE NUMBERS = ADETOYE -->
@@ -252,14 +354,14 @@
           <div class="options-mobile-container flex">
             <div class="arrow-pointers flex">
               <span class="arrow-btn pointer-arrow-left"
-                ><img src="img/arrow-left.svg" alt=""
+                ><img src="../img/arrow-left.svg" alt=""
               /></span>
               <span class="arrow-btn pointer-arrow-right"
-                ><img src="img/arrow-right-white.svg" alt=""
+                ><img src="../img/arrow-right-white.svg" alt=""
               /></span>
             </div>
             <div class="options-dropdown flex">
-              Overview <span><img src="img/caret-down.svg" alt="" /></span>
+              Overview <span><img src="../img/caret-down.svg" alt="" /></span>
             </div>
           </div>
         </div>
@@ -288,7 +390,7 @@
           </div>
           <div class="pointer-container">
             <span class="arrow-btn slide-pointer-right hide-on-mobile">
-              <img src="img/arrow-right-white.svg" alt="" />
+              <img src="../img/arrow-right-white.svg" alt="" />
             </span>
           </div>
         </div>
