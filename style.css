@@ -1134,7 +1134,7 @@ span {
   padding: 7rem 0 0;
   border-radius: 40px;
   text-align: center;
-  height: 80vh;
+  min-height: 80vh;
   display: grid;
   grid-template-rows: 5rem 8rem 15rem 1fr;
   /* background-image: to right bottom url(img/hero-path.svg); */
@@ -1173,7 +1173,7 @@ span {
 
 .lastCTA__about--content {
   font-size: 3rem;
-  width: 40%;
+  width: 50%;
   line-height: 1.3;
   margin: 2rem auto 5rem;
 }
@@ -1182,10 +1182,10 @@ span {
   display: grid;
   margin: 10rem 0 0;
   grid-template-columns: 1fr 1fr;
+  border-top: 0.3px solid rgba(199, 196, 196, 0.192);
 }
 
 .left-side {
-  border-top: 0.3px solid rgba(199, 196, 196, 0.192);
   border-right: 0.3px solid rgba(199, 196, 196, 0.192);
   display: flex;
   align-items: center;
@@ -1197,12 +1197,10 @@ span {
 .left-side > h2 {
   margin-top: -1rem;
   padding: 0 1rem;
-  width: 40%;
+  width: 50%;
 }
 
 .right-side {
-  border-top: 0.3px solid rgba(199, 196, 196, 0.192);
-  border-left: 0.3px solid rgba(199, 196, 196, 0.192);
   text-align: left;
   padding: 5rem 0 2rem 8rem;
   font-size: 3rem;
@@ -1210,6 +1208,9 @@ span {
   transition: all 1s ease-in;
 }
 
+.left-side, .right-side {
+  padding: 10rem 0;
+}
 .contact-button {
   display: none;
   color: var(--footer-blue);
