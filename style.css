@@ -1137,12 +1137,10 @@ span {
   min-height: 80vh;
   display: grid;
   grid-template-rows: 5rem 8rem 15rem 1fr;
-  /* background-image: to right bottom url(img/hero-path.svg); */
-  /* background-image: linear-gradient(to right bottom, #fffdfd0e, #fffdfd0e),
-    url(img/hero-path.svg);
-  background-size: cover;
+  background-image: url(img/hero-path-blue.svg);
+  background-size: contain;
   background-position: top;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 
 .folio-cta-logo {
@@ -1367,7 +1365,7 @@ span {
   }
 
   .right-side {
-    padding: 4rem 0 2rem 7rem;
+    padding-left: 7rem;
   }
 
   .next__button {
@@ -1388,15 +1386,12 @@ span {
     width: 45%;
   }
 
-  .right-side {
-    padding: 4rem 0 2rem 7rem;
-  }
 }
 
 @media only screen and (max-width: 1200px) {
   .lastCTA__container {
     width: 90%;
-    height: 80vh;
+    min-height: 50vh;
   }
 
   .left-side > h2 {
@@ -1414,7 +1409,7 @@ span {
 
 @media only screen and (max-width: 1000px) {
   .lastCTA__container {
-    width: 95%;
+    width: 90%;
   }
 
   .lastCTA__about--content {
@@ -1507,6 +1502,7 @@ span {
 
   .lastCTA__container {
     height: 100vh;
+    background-image: none;
   }
 
   .lastCTA__about--content {
