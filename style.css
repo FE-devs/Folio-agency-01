@@ -967,7 +967,7 @@ top: 4911px;
   width: 5rem;
   border-radius: 50%;
   border-color:  #232340;
-  margin-top: 28rem;
+  margin-top: 15rem;
   margin-left: 2rem;
 }
 .paragrap-section{
@@ -1058,6 +1058,10 @@ top: 4911px;
   margin-bottom: 5rem;
   margin-left: 5rem;
 }
+.female{
+  margin-left: 7rem;
+  margin-top: 5rem;
+}
 .content__card{
   margin-top: 40rem;
 }
@@ -1107,7 +1111,7 @@ top: 4911px;
   border: 2px solid plum;
   background-color: plum;
   width: 30rem;
-  height: 35rem;
+  height: 30rem;
   border-radius: 1.4rem;
 }
 .third-box img{
@@ -1182,7 +1186,6 @@ top: 4911px;
 }
 @media(max-width: 500px) {
   .main-btn{
-  
 
   }
   .part-container{
@@ -1199,7 +1202,13 @@ top: 4911px;
     margin-left: -25rem;
   }
   .works-box{
-    width: 42rem;
+   
+    width: 40rem;
+  }
+  .female{
+    width: 5rem;
+    margin-left: -0.rem;
+    margin-top: 8rem;
   }
   .partner-btn{
     margin-left: 39rem;
@@ -1207,6 +1216,7 @@ top: 4911px;
   .content5__container{
     margin-top: -50rem;
   }
+  
   }
 
 /* <! END --> */
