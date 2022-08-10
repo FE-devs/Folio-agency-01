@@ -1624,8 +1624,8 @@ gap: 2rem;
 }
 .overview__image{
   background-color: var(--footer-purple);
-  height:468px;
-  width: 468px;
+  height:46.8rem;
+  width: 46.8rem;
   border-radius: 50%;
   margin-bottom: 10rem;
   
@@ -1666,7 +1666,6 @@ font-weight: 600;
 color: #5468e7;
 }
 .right__side__two{
-/* font-family: SF Pro Display; */
 font-weight: 700;
 font-size: 6.4rem;
 line-height: 7.2rem;
@@ -1681,6 +1680,7 @@ color: #8b8b8b;
 margin-bottom: 5rem;
 }
 .right__side__four{
+margin-bottom: 5rem;
 font-weight: 700;
 font-size: 2.4rem;
 line-height: 3.2rem;
@@ -1699,9 +1699,16 @@ color: var(--text-dark);
   gap: 3rem;
   width: 26.5rem;
   height: 36rem;
-  border: 0.1rem solid #8b8b8b;
-  border-radius: 3rem;
+  border: 0.1rem solid #d8d8d8;
+  border-radius: 4.8rem;
+  border-top: none;
+  border-bottom: none;
   /* background-color: #ffffff; */
+}
+.speech__part{
+  border: none;
+  
+
 }
 .power__buttn{
 height: 12.8rem;
@@ -1728,6 +1735,52 @@ background-color: #ffc0a5;
   color: #5468e7;
 
 }
+
+@media screen and (max-width: 68.75em) {
+  .overview__image{
+    height: 33rem;
+    width: 33rem;
+    border-radius: 50%;
+  }
+  .overview__img{
+    height: 27rem;
+    width: 27rem;
+    border-radius: 50%;
+    
+  }
+  .power__part{
+    width: 19rem;
+    height: 25.6rem;
+
+  }
+  .right__side__two{
+    font-size: 4.8rem;
+
+  }
+  .right__side__three{
+    font-size: 1.6rem;
+  }
+  .right__side__four{
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 45em) {
+  .right__side__five{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .power__part{
+    height: 25.6rem;
+    width: 31rem;
+    border-radius: 3.2rem;
+  }
+
+}
+  
+
 /* <!-- END --> */
 
 /* <!-- BY THE NUMBERS = ADETOYE --> */
